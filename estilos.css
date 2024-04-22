@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(static\Oswald-VariableFont_wght.woff2);
+}
+body {
+background-image: linear-gradient(#b1aaa0 2%,#a58fb6);
+margin: 0;
+padding: 0;
+font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+footer{
+color: white;
+padding-left: 300px;
+padding-top: 10px;
+padding-bottom:10px;
+background-color: black;
+}
+#menu-box {
+display: flex;
+flex-direction: row;
+background-image: linear-gradient(#a58fb6,#b1aaa0 90%);
+font-size: 20px;
+border: 1px solid black;
+padding: 10px; 
+border-radius: 1px; 
+}
+#menu-box div{
+width:15%;
+height: 30px;
+text-align:center;
+padding: 1px;
+margin: 1px;
+}
+label{
+padding: 15px;
+
+}
+.input-texto{
+width: 250px;
+
+}
+
+#botao{
+width: 200px;
+height: 30px;
+}

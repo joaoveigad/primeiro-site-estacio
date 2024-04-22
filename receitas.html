@@ -12,13 +12,14 @@
             font-family: "Oswald";
             src: url(static\Oswald-VariableFont_wght.woff2);
         }
-    body {
-        background-image: linear-gradient(#b1aaa0 2%,#a58fb6);
-        margin: 0;
-        padding: 0;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        
-    }
+
+        body {
+            background-image: linear-gradient(#b1aaa0 2%,#a58fb6);
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            overflow-y: auto;
+        }
     #titulo {
 
         width: 90%;
@@ -36,9 +37,21 @@
         font-size: 20px;
         font-style: italic;
     }
-    a:link, a:visited {
-        color: #b5c3dc;
+    a:visited {
+            color:aliceblue;
+            text-decoration:none;
+        }
+
+    a:link {
+        color: #143670;
         text-decoration: none;
+    }
+    a:hover{
+        color:#1e0333;
+    }
+
+    a:active{
+        color:#189c23
     }
     @media (max-width: 700px) {
         div {
@@ -55,10 +68,10 @@
     padding: 10px; 
     border-radius: 1px; 
 }
-    #menu-box div{
-        width: 10%;
-        height: 30px;
-        text-align: left;
+#menu-box a{
+        width: 30%;
+        height: 25px;
+        text-align: center;
         padding: 10px;
     }
     .img {
@@ -81,10 +94,11 @@
     </style>    
 </head>
 <header>
-    <div id="menu-box">
-        <link>Menu</link>
-        <link>Receitas</link>
-        <link>Cadastro</link>
+        <div class="container-fluid" id="menu-box">
+            <a href="receitas.html">Página inicial!</a>
+            <a href="pagina.receitas.html">Receitas</a>
+            <a href="cadastro.html">Cadastro</a>
+        </div>
     </div>
  
 
